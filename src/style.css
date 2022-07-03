@@ -34,7 +34,9 @@ body {
     min-height: 100vh;
     display: grid;
     place-content: center;
-    background: #b029a1;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #14af99 0%, rgba(0, 0, 0, 0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #a814a8 0%, #6646a8 100%);
 }
 
 button {
